@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Tours – Holiday</title>
+
+    <!-- main common css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- tours page css -->
+    <link rel="stylesheet" href="tour.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="top-bar">
+        <div class="container nav-bar">
+            <div class="logo">HOLI<span>DAY</span></div>
+
+            <nav>
+                <ul>
+                    <li><a href="firstsite.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="tour.html" class="active-nav">OUR TOURS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ============ TOP HERO (FIND TOUR PROGRAMS) ============ -->
+        <section class="tour-hero">
+            <div class="tour-hero-overlay"></div>
+            <div class="hero-arrows">
+                <button class="hero-arrow hero-prev">&#10094;</button>
+                <button class="hero-arrow hero-next">&#10095;</button>
+            </div>
+
+            <div class="tour-hero-content">
+                <h1>FIND <span>TOUR PROGRAMS</span></h1>
+                <h2>FOR YOUR DESTINATIONS</h2>
+                <a href="#our-tours" class="btn-hero">LEARN MORE</a>
+            </div>
+
+            <!-- BOOKING + IMAGES BOX -->
+            <div class="tour-hero-box">
+
+                <!-- LEFT: BOOKING FORM WITH TABS -->
+                <div class="booking-box">
+
+    <!-- RADIO BUTTONS (HIDDEN) -->
+    <input type="radio" name="book-tab" id="tab-hotel" checked>
+    <input type="radio" name="book-tab" id="tab-car">
+
+    <!-- TAB HEADERS -->
+    <div class="booking-tabs">
+        <label for="tab-hotel" class="tab-btn">HOTEL</label>
+        <label for="tab-car" class="tab-btn">CAR RENTAL</label>
+    </div>
+
+    <p class="booking-text">
+        Find great deals on hotels and car rentals for your holiday destination.
+    </p>
+    
+    <!-- HOTEL FORM -->
+    <div class="booking-body hotel-form">
+        <select>
+            <option>-- Select Hotel --</option>
+            <option>Hotel One</option>
+            <option>Hotel Two</option>
+        </select>
+
+        <input type="date" placeholder="Check-in Date">
+        <input type="date" placeholder="Check-out Date">
+
+        <select>
+            <option>Guests</option>
+        </select>
+
+        <button class="btn-book">CHECK NOW</button>
+    </div>
+
+    <!-- CAR RENTAL FORM -->
+    <div class="booking-body car-form">
+        <select>
+            <option>-- Select Car --</option>
+            <option>SUV</option>
+            <option>Sedan</option>
+            <option>Hatchback</option>
+        </select>
+
+        <input type="date" placeholder="Pick-up Date">
+        <input type="date" placeholder="Return Date">
+
+        <select>
+            <option>Options</option>
+        </select>
+
+        <button class="btn-book">CHECK NOW</button>
+    </div>
+</div>
+
+                <!-- RIGHT: 3 IMAGES -->
+                <div class="tour-hero-images">
+
+    <div class="hero-box">
+        <img src="singapour.jpeg" alt="Tour 1">
+        <div class="caption">SINGAPORE <span>$2200</span></div>
+    </div>
+
+    <div class="hero-box">
+        <img src="index-03.jpg" alt="Tour 2">
+        <div class="caption">LAKE TOUR <span>$1500</span></div>
+    </div>
+
+    <div class="hero-box">
+        <img src="index-04.jpg" alt="Tour 3">
+        <div class="caption">TRAVEL <span>$1800</span></div>
+    </div>
+
+</div>
+        </section>
+
+        <!-- ============ OUR TOURS CARDS ============ -->
+        <section class="tours-section" id="our-tours">
+            <div class="section-heading">
+                <span class="line"></span>
+                <h2>OUR TOURS</h2>
+                <span class="line"></span>
+            </div>
+
+            <div class="tours-grid">
+
+                <!-- CARD 1 -->
+                <article class="tour-card">
+                    <img src="index-05.jpg" alt="City Tour">
+                    <div class="tour-card-body">
+                        <h3>enjoy and fun</h3>
+                        <p>
+                            come with us and enjoy your tour.
+                        </p>
+                        <p class="tour-date">28 March 2026</p>
+                    </div>
+                    <div class="tour-card-footer">
+                        <span>DURATION: 8 DAYS</span>
+                        <span class="price">$2,200</span>
+                    </div>
+                </article>
+
+                <!-- CARD 2 -->
+                <article class="tour-card">
+                    <img src="index-06.jpg" alt="Nature Tour">
+                    <div class="tour-card-body">
+                        <h3>best PLACE</h3>
+                        <p>
+                           relax with us.
+                        </p>
+                        <p class="tour-date">28 March 2026</p>
+                    </div>
+                    <div class="tour-card-footer">
+                        <span>DURATION: 9 DAYS</span>
+                        <span class="price">$1,800</span>
+                    </div>
+                </article>
+
+                <!-- CARD 3 -->
+                <article class="tour-card">
+                    <img src="index-07.jpg" alt="Field Tour">
+                    <div class="tour-card-body">
+                        <h3>Best place for relax</h3>
+                        <p>
+                            sometime you need to relax your mind and body.
+                        </p>
+                        <p class="tour-date">22 March 2026</p>
+                    </div>
+                    <div class="tour-card-footer">
+                        <span>DURATION: 8 DAYS</span>
+                        <span class="price">$1,600</span>
+                    </div>
+                </article>
+
+                <!-- CARD 4 -->
+                <article class="tour-card">
+                    <img src="index-08.jpg" alt="Canal Tour">
+                    <div class="tour-card-body">
+                        <h3>best PLACE for your group</h3>
+                        <p>
+                            plan your group tour with us.
+                        </p>
+                        <p class="tour-date">22 March 2026</p>
+                    </div>
+                    <div class="tour-card-footer">
+                        <span>DURATION: 5 DAYS</span>
+                        <span class="price">$1,200</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ============ SPECIAL PACKAGES ============ -->
+        <section class="special-section">
+            <div class="section-heading">
+                <span class="line"></span>
+                <h2>SPECIAL PACKAGES</h2>
+                <span class="line"></span>
+            </div>
+
+            <div class="special-grid">
+
+                <article class="special-card">
+                    <img src="index-04.jpg" alt="Special 1">
+                    <h3>PRON GRAVIDA NIBH VEL</h3>
+                    <p class="tour-date">28 March 2026</p>
+                    <button class="btn-special">BOOK NOW</button>
+                </article>
+
+                <article class="special-card">
+                    <img src="index-05.jpg" alt="Special 2">
+                    <h3>PRON GRAVIDA NIBH VEL</h3>
+                    <p class="tour-date">26 March 2026</p>
+                    <button class="btn-special">BOOK NOW</button>
+                </article>
+
+                <article class="special-card">
+                    <img src="index-06.jpg" alt="Special 3">
+                    <h3>PRON GRAVIDA NIBH VEL</h3>
+                    <p class="tour-date">24 March 2026</p>
+                    <button class="btn-special">BOOK NOW</button>
+                </article>
+
+                <article class="special-card">
+                    <img src="index-07.jpg" alt="Special 4">
+                    <h3>PRON GRAVIDA NIBH VEL</h3>
+                    <p class="tour-date">22 March 2026</p>
+    
+                    <button class="btn-special">BOOK NOW</button>
+                </article>
+
+            </div>
+
+            <p class="special-text"> you are in holiday mood, we are here to help you.</p>
+                
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Copyright © 2025 flying birds | Designed by me</p>
+    </footer>
+
+</body>
+</html>
